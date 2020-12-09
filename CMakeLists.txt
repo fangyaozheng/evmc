@@ -91,6 +91,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES Clang)
             -Wno-weak-vtables
             -Wno-documentation
             -Wno-documentation-unknown-command
+            -Wno-bad-function-cast
         )
     endif()
 endif()
